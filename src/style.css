@@ -1,25 +1,69 @@
+:root {
+  --primary-color: rgb(0, 139, 139);
+  --accent-color: rgb(140, 44, 10);
+  --button-border: 1px solid rgba(255, 255, 255, 0.3);
+  --button-shadow: 3px 3px 14px rgba(0, 0, 0, 0.3);
+}
+
 body {
-  background-color: rgb(0, 139, 139);
+  background-color: var(--primary-color);
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
+.hero {
+  padding: 160px 20px;
+}
+
 h2 {
-  margin-top: 30px;
-  margin-bottom: 5px;
   font-size: 32px;
   color: rgba(255, 255, 255, 0.8);
 }
 
 h1 {
-  margin: 5px;
-  font-size: 52px;
+  font-size: 76px;
   font-weight: 700;
   font-family: "Playfair", serif;
   color: rgb(255, 255, 255);
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons a {
+  margin: 20px;
+}
+
+.btn-branding {
+  background-color: var(--accent-color);
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 17px;
+  padding: 20px 12px;
+  border-radius: 5px;
+  border: var(--button-border);
+  box-shadow: var(--button-shadow);
+}
+
+.btn-branding:hover {
+  box-shadow: none;
+  transform: scale(1.1, 1.1);
+}
+
+footer {
+  margin-top: 34px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer a {
+  color: var(--accent-color);
+  font-weight: 500;
 }

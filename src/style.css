@@ -8,28 +8,40 @@
 body {
   background-color: var(--primary-color);
   font-family: "Montserrat", sans-serif;
-  text-align: center;
+  color: white;
 }
 
 .hero {
   padding: 160px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  opacity: 0.8;
+  border: none;
 }
 
 h2 {
-  font-size: 32px;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Playfair", serif;
+  text-align: center;
+  padding: 10px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 }
 
 h1 {
   font-size: 76px;
   font-weight: 700;
   font-family: "Playfair", serif;
-  color: rgb(255, 255, 255);
 }
 
 h3 {
   font-size: 22px;
-  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
 }
 
 .buttons {
@@ -57,8 +69,34 @@ h3 {
   transform: scale(1.1, 1.1);
 }
 
+.btn-branding-outline {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--accent-color);
+  text-decoration: none;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 12px 12px;
+}
+.btn-branding-outline:hover {
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.project-description {
+  padding: 100px 30px;
+}
+
+p {
+  font-size: 16px;
+  opacity: 0.8;
+  line-height: 28px;
+}
+
 footer {
-  margin-top: 34px;
+  margin-top: 50px;
+  text-align: center;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -66,4 +104,27 @@ footer {
 footer a {
   color: var(--accent-color);
   font-weight: 500;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 14px;
+  }
+
+  h1 {
+    font-size: 64px;
+    line-height: 1.5;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
 }

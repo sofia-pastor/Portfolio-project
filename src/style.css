@@ -105,6 +105,7 @@ p {
 .content h1 {
   font-size: 70px;
   line-height: 1.1;
+  font-weight: 700;
 }
 
 .content h2 {
@@ -126,6 +127,7 @@ p {
   text-align: center;
   line-height: 1.5;
   opacity: 1;
+  font-weight: 600;
 }
 
 .content p {
@@ -135,6 +137,11 @@ p {
 .profile-img {
   max-width: 70%;
   margin: 30px 30px 30px 100px;
+}
+
+p a {
+  color: var(--accent-color);
+  font-weight: 600;
 }
 
 footer {

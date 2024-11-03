@@ -11,6 +11,38 @@ body {
   color: white;
 }
 
+.logo {
+  max-width: 85px;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 70px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--accent-color);
+}
+
 .hero {
   padding: 160px 20px;
   background: rgba(255, 255, 255, 0.2);
@@ -62,6 +94,7 @@ h3 {
   border-radius: 5px;
   border: var(--button-border);
   box-shadow: var(--button-shadow);
+  transition: all 200ms ease-in-out;
 }
 
 .btn-branding:hover {
@@ -77,6 +110,7 @@ h3 {
   border-radius: 5px;
   font-size: 17px;
   padding: 12px 12px;
+  transition: all 200ms ease-in-out;
 }
 .btn-branding-outline:hover {
   box-shadow: none;

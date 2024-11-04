@@ -142,7 +142,7 @@ p {
 }
 
 .content-container {
-  padding: 80px 20px;
+  padding: 80px 20px 40px 80px;
 }
 
 .content {
@@ -192,7 +192,7 @@ p a {
 }
 
 footer {
-  margin: 90px 0 50px;
+  margin: 100px 0 50px;
   text-align: center;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.7);

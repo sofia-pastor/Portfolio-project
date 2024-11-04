@@ -31,19 +31,28 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/style.css" />
-    <title>My Portfolio - Work</title>
+    <meta
+      name="description"
+      content="Check out some of the projects Sofia has created as front-end developer"
+    />
+    <title>Front-end Portfolio - Sofia's Projects</title>
   </head>
   <body>
     <div class="container-fluid">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/src/images/coding-1-37.png" class="logo d-none d-sm-block"
+        <a href="/" title="Homepage">
+          <img
+            src="/src/images/coding-1-37.png"
+            class="logo d-none d-sm-block"
+            alt="coding-logo"
         /></a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/work.html">Projects</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Sofia">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Sofia's Projects">Projects</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Sofia">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -60,7 +69,7 @@
             <img
               src="/src/images/hogwarts-project-img.png"
               class="img-fluid rounded"
-              alt=""
+              alt="hogwarts-project-img"
             />
             <h3 class="mt-4 mb-0">Hogwarts Project</h3>
             <p class="text-center">Built mostly with basic HTML and CSS</p>
@@ -71,7 +80,7 @@
               src="/src/images/weather-app.png"
               class="weather-img img-fluid rounded"
               id="weather-app"
-              alt=""
+              alt="weather-app-project-img"
             />
             <h3 class="mt-4 mb-0">Weather App</h3>
             <p class="text-center">Built with HTML, CSS and JavaScript</p>
@@ -83,7 +92,7 @@
               src="/src/images/AI-surfboard-project-img.png"
               class="img-fluid rounded"
               id="surfboard-AI"
-              alt=""
+              alt="AI-surfboard-project-img"
             />
             <h3 class="mt-4 mb-0">AI Surfboard generator/selector</h3>
             <p class="text-center">
@@ -96,7 +105,7 @@
               src="/src/images/world-clock-app-img.png"
               class="img-fluid rounded"
               id="world-clock-app"
-              alt=""
+              alt="world-clock-app-img"
             />
             <h3 class="mt-4 mb-0">World Clock App</h3>
             <p class="text-center">Built with HTML, CSS and JavaScript</p>
@@ -113,27 +122,42 @@
             <a href="/contact.html" class="btn btn-branding">Contact Me</a>
           </div>
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <a href="mailto:sofiapastor93@gmail.com" class="email-link"
             >sofiapastor93@gmail.com</a
           >
         </div>
         <div class="social-links">
-          <a href="https://github.com/sofia-pastor" target="_blank"
+          <a
+            href="https://github.com/sofia-pastor"
+            title="GitHub Profile"
+            target="_blank"
             ><i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/sofia-pastor-freitas/"
+            title="LinkedIn Profile"
             target="_blank"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://www.instagram.com/sofiapastor/" target="_blank"
+          <a
+            href="https://www.instagram.com/sofiapastor/"
+            title="Instagram Profile"
+            target="_blank"
             ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>
+        <p class="mt-5">
+          💻
+          <br />
+          This project was coded by Sofia Pastor and it is
+          <a
+            href="https://github.com/sofia-pastor/Portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
       </footer>
     </div>
-
-    <a href="/" class="">Homepage</a>
   </body>
 </html>

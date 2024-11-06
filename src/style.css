@@ -135,10 +135,12 @@ h4 {
   padding: 100px 30px;
 }
 
-p {
+p,
+.skills {
   font-size: 16px;
   opacity: 0.8;
   line-height: 28px;
+  text-align: justify;
 }
 
 .content-container {
@@ -177,13 +179,15 @@ p {
   font-weight: 600;
 }
 
-.content p {
+.content p,
+.skills {
   font-size: 14px;
+  text-align: justify;
 }
 
 .profile-img {
-  max-width: 70%;
-  margin: 30px 30px 30px 100px;
+  max-width: 90%;
+  margin: 120px 30px 30px 100px;
 }
 
 p a {
@@ -240,6 +244,7 @@ footer .social-links a:hover {
 
 footer p {
   font-size: 14px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
@@ -273,8 +278,13 @@ footer p {
     margin-top: 52px;
     margin-bottom: 52px;
   }
+
+  .content p,
+  .skills {
+    text-align: justify;
+  }
   .profile-img {
-    margin: 0;
+    margin: 25px 0 0 0;
   }
 
   .content h1 {
